@@ -1,0 +1,67 @@
+.categroy-wrap{
+    .categroy-nav{
+        padding:30px 0px;
+        border-bottom: 1px solid #E5E5E5;
+        .title{
+            display: inline-block;
+            color:#333;
+            font-size:16px;
+            font-weight:500;
+            margin-right:6px;
+        }
+        .nav-item{
+            display:inline-block;
+            font-size:14px;
+            margin:0px 14px;
+            .item-link{
+                color:#666;
+                &:hover{
+                    color:#13D1BE;
+                }
+            }
+        }
+    }
+    .categroy-cont{
+        background:#fff;
+        .city-nav{
+            position: relative;
+            padding:10px;
+            border-radius:10px;
+            min-height:60px;
+            .first-letter{
+                position: absolute;
+                left:10px;
+                top:10px;
+                .circle{
+                    display:inline-block;
+                    font-size:16px;
+                    color:#fff;
+                    width:40px;
+                    height:40px;
+                    line-height: 40px;
+                    text-align:center;
+                    border-radius: 50%;
+                    background:#13D1BE;
+                }
+            }
+            .city-item{
+                font-size:14px;
+                margin-left:54px;
+                vertical-align: middle;
+                .item-link{
+                    display: inline-block;
+                    margin:0px 14px;
+                    line-height:40px;
+                    color:#666;
+                    &:hover{
+                        color:#13D1BE;
+                    }
+                }
+            }
+            &:hover{
+                background:#f8f8f8;
+            }
+        }
+        
+    }
+}

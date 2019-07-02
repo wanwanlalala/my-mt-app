@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'iconfont';
+  /* project id 682850 */
+  src: url('../font/font_682850_58yfbhz7jvf.eot');
+  src: url('../font/font_682850_58yfbhz7jvf.eot?#iefix') format('embedded-opentype'),
+    url('../font/font_682850_58yfbhz7jvf.woff') format('woff'),
+    url('../font/font_682850_58yfbhz7jvf.ttf') format('truetype'),
+    url('../font/font_682850_58yfbhz7jvf.svg#iconfont') format('svg');
+}
+
+@font-face {
+  font-family: 'meituan';
+  src: url(../font/home-category-iconfont.eot);
+    src: url(../font/home-category-iconfont.eot#iefix) format('embedded-opentype'),
+    url(../font/home-category-iconfont.woff) format('woff'),
+    url(../font/home-category-iconfont.ttf) format('truetype'),
+    url(../font/home-category-iconfont.svg#home-category-iconfont) format('svg')
+}
+
+.layout-blank{
+  background-color: #fff;
+  color: #2e2f30;
+  letter-spacing: 0.5px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size:12px;
+}
+body *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.el-header{
+  padding:0;
+}
+footer{
+  text-align: center;
+}
+
+a, a:hover, a:focus, a:visited{
+  color: #41B883;
+}
+
+.logo {
+  width: 243px;
+  height: 218px;
+}
+
+.page-enter-active, .page-leave-active{
+  transition: opacity .5s
+}
+.page-enter, .page-leave-active{
+  opacity: 0
+}
+.clearfix{
+  zoom:1;
+}
+.clearfix:after{
+  content:'';
+  height:0;
+  display: block;
+  clear:both;
+  visibility: hidden
+}
+ul,li{
+  list-style-type: none;
+}

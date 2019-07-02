@@ -1,0 +1,22 @@
+.hot-city-wrap{
+    padding:30px 0px;
+    border-bottom: 1px solid #E5E5E5;
+    .title{
+        display: inline-block;
+        color:#333;
+        font-size:16px;
+        font-weight:500;
+        margin-right:6px;
+    }
+    .city-item{
+        display:inline-block;
+        font-size:14px;
+        margin:0px 10px;
+        .item-link{
+            color:#666;
+            &:hover{
+                color:#13D1BE;
+            }
+        }
+    }
+}

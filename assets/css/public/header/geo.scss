@@ -1,0 +1,25 @@
+.m-geo{
+    line-height: auto;
+    .change-city-link{
+        color:#666;
+        border:1px solid #E5E5E5;
+        padding:2px;
+        margin-right:5px;
+        background: #F4F4F4;
+        &:hover,
+        &:visited{
+            color:#31BBAC;
+        }
+    }
+    .geo-city-list-link{
+        margin-right:5px;
+        color:#999;
+        &:hover,
+        &:visited{
+            color:#31BBAC;
+        }
+        &:last-child{
+            margin-right:0px;
+        }
+    }
+}

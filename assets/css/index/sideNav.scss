@@ -1,0 +1,193 @@
+.side-nav-wrap{
+    position:relative;
+    height:100%;
+    .side-nav{
+        padding-bottom:15px;
+        position:relative;
+        margin-top:-60px;
+        height:476px;
+        background: -webkit-linear-gradient(-90deg,rgba(2,181,157,.85) 2%,rgba(22,146,183,.85) 100%);
+        background: -o-linear-gradient(-90deg,rgba(2,181,157,.85) 2%,rgba(22,146,183,.85) 100%);
+        background: -moz-linear-gradient(-90deg,rgba(2,181,157,.85) 2%,rgba(22,146,183,.85) 100%);
+        background: linear-gradient(-90deg,rgba(2,181,157,.85) 2%,rgba(22,146,183,.85) 100%);
+        color:#fff;
+        .main-title{
+            padding-left:20px;
+            font-size:16px;
+            font-weight:400;
+            height:50px;
+            line-height:50px;
+        }
+        .side-nav-item{
+            font-size:13px;
+            height:26px;
+            line-height:26px;
+            padding:0 10px 0 15px;
+            &:hover{
+                background:#54C9BE;
+                &>i{
+                    opacity: 1;
+                }
+            }
+            .side-nav-icon {
+                font-family: 'meituan';
+                font-size: 14px;
+                font-style: normal;
+                opacity: 0.3;
+                margin-right: 11px;
+                display: inline-block;
+                width:14px;
+                height:14px;
+                &:before {
+                  width: 14px;
+                  height: 14px;
+                  display: inline-block;
+                }
+            }
+            .food {
+                &:before {
+                    content: "\e622";
+                }
+            }
+    
+            .takeout {
+                &:before {
+                    content: "\e630";
+                }
+            }
+    
+            .hotel {
+                &:before {
+                    content: "\e62a";
+                }
+            }
+    
+            .homestay {
+                &:before {
+                    content: "\e631";
+                }
+            }
+    
+            .movie {
+                &:before {
+                    content: "\e62c";
+                    position: relative;
+                    left: -2px;
+                }
+            }
+    
+            .airport {
+                &:before {
+                    content: "\e632";
+                }
+            }
+    
+            .ktv {
+                &:before {
+                    content: "\e627";
+                }
+            }
+    
+            .life {
+                &:before {
+                    content: "\e633";
+                }
+            }
+    
+            .hair {
+                &:before {
+                    content: "\e626";
+                    transform: scale(0.7);
+                }
+            }
+    
+            .marry {
+                &:before {
+                    content: "\e629";
+                }
+            }
+    
+            .offspring {
+                &:before {
+                    content: "\e623";
+                }
+            }
+    
+            .sport {
+                &:before {
+                    content: "\e62b";
+                }
+            }
+    
+            .furniture {
+                &:before {
+                    content: "\e625";
+                }
+            }
+    
+            .study {
+                &:before {
+                    content: "\e624";
+                }
+            }
+    
+            .health {
+                &:before {
+                    content: "\e628";
+                }
+            }
+    
+            .bar {
+                &:before {
+                    content: "\e621";
+                }
+            }
+            .side-nav-link{
+                color:#fff; 
+            }
+            .arrow-right{
+                float:right;
+                margin-top:7px;
+            }
+        }
+        
+    }
+    .nav-detail{
+        position:absolute;
+        left:100%;
+        top:70px;
+        width:400px;
+        height:386px;
+        background:#fff;
+        border:1px solid #e5e5e5;
+        z-index:2019;
+        .nav-detail-item{
+            padding:10px 25px;
+            &>dt{
+                position: relative;
+                .nav-detail-title{
+                    color:#222;
+                    font-size:16px;
+                    font-weight:500;
+                    padding:8px 0;
+                    cursor: pointer;
+                    border-bottom:1px solid #e5e5e5
+                }
+                .more-link{
+                    color:#999;
+                    position:absolute;
+                    top:8px;
+                    right:5px;
+                }              
+            }
+            &>dd{
+                padding:8px 0;
+                word-break: keep-all;
+                .item-list{
+                    color:#999;
+                    margin-right:10px;
+                }
+            }
+        }
+    }
+}
